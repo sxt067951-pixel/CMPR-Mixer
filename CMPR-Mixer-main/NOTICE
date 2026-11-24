@@ -1,0 +1,23 @@
+CMPR-Mixer research code
+
+This repository contains forecasting components adapted from TimeMixer:
+https://github.com/kwuking/TimeMixer
+TimeMixer: Decomposable Multiscale Mixing for Time Series Forecasting,
+Shiyu Wang et al., ICLR 2024.
+The original Apache License 2.0 text is retained in LICENSE.
+
+Modified areas include the forecasting-only model path, fixed-capacity
+prototype retrieval, exogenous gates/embeddings, mean-anchored pooling,
+data loading, experiment entry points, and regression tests.
+
+The local prototype implementation traces back to ProtoTS:
+https://github.com/SKURA502/ProtoTS
+Ziheng Peng et al., ProtoTS: Learning Hierarchical Prototypes for Explainable
+Time Series Forecasting, ICLR 2026.
+Its local snapshot does not contain a license. Confirm redistribution
+permission before a public release. The TimeMixer license is not a grant
+of rights to third-party material.
+
+Upstream papers:
+TimeMixer: https://arxiv.org/abs/2405.14616
+ProtoTS: https://arxiv.org/abs/2509.23159
